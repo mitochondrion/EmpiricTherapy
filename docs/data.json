@@ -290,17 +290,17 @@
             {
                 "id": "20",
                 "title": "Sample Answer Title",
-                "description": "Sample result 1",
+                "description": "Sample result 1"
             },
             {
                 "id": "30",
                 "title": "Sample Answer Title",
-                "description": "Sample result 2",
+                "description": "Sample result 2"
             },
             {
                 "id": "40",
                 "title": "Sample Answer Title",
-                "description": "WINNER WINNER CHICKEN DINNER",
+                "description": "WINNER WINNER CHICKEN DINNER"
             }
         ]
     }
