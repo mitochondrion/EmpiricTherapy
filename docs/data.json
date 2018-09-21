@@ -220,47 +220,47 @@
             {
                 "id": "150",
                 "title": "",
-                "description": "Ciproflaxacin 500mg twice a day for 10-14 days\\n\\nConsider single dose cefepime 2g IV in ED before discharge\\n\\nFollow-up recommended within 48 hours culture result and clinical monitoring"
+                "description": "Ciproflaxacin 500mg twice a day for 10-14 days\n\nConsider single dose cefepime 2g IV in ED before discharge\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             },
             {
                 "id": "160",
                 "title": "",
-                "description": "Cefpodoxime 100mg twice a day for 10-14 days\\n\\nConsider single dose cefepime 2g IV in ED before discharge\\n\\nFollow-up recommended within 48 hours culture result and clinical monitoring"
+                "description": "Cefpodoxime 100mg twice a day for 10-14 days\n\nConsider single dose cefepime 2g IV in ED before discharge\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             },
             {
                 "id": "170",
                 "title": "Uncomplicated Pyelonephritis",
-                "description": "Ciproflaxacin 500mg twice a day for 7 days\\n\\nConsider single dose cefepime 1g IV in ED before discharge\\n\\nFollow-up recommended within 48 hours culture result and clinical monitoring"
+                "description": "Ciproflaxacin 500mg twice a day for 7 days\n\nConsider single dose cefepime 1g IV in ED before discharge\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             },
             {
                 "id": "180",
                 "title": "",
-                "description": "Cefpodoxime 100mg twice a day for 5-7 days\\n\\nAND Amoxicillin 500mg three times a day for 5-7 days\\n\\nFollow-up recommended within 48 hours culture result and clinical monitoring"
+                "description": "Cefpodoxime 100mg twice a day for 5-7 days\n\nAND Amoxicillin 500mg three times a day for 5-7 days\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             },
             {
                 "id": "190",
                 "title": "",
-                "description": "Cefpodoxime 100mg twice a day for 5-7 days\\n\\nFollow-up recommended within 48 hours culture result and clinical monitoring"
+                "description": "Cefpodoxime 100mg twice a day for 5-7 days\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             },
             {
                 "id": "200",
                 "title": "",
-                "description": "Ciproflaxacin 250mg twice a day for 3 days\\n\\nAND Amoxicillin 500mg three times a day for 5-7 days\\n\\nFollow-up recommended within 48 hours culture result and clinical monitoring"
+                "description": "Ciproflaxacin 250mg twice a day for 3 days\n\nAND Amoxicillin 500mg three times a day for 5-7 days\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             },
             {
                 "id": "210",
                 "title": "",
-                "description": "Ciproflaxacin 250mg twice a day for 3 days\\n\\nFollow-up recommended within 48 hours culture result and clinical monitoring"
+                "description": "Ciproflaxacin 250mg twice a day for 3 days\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             },
             {
                 "id": "220",
                 "title": "",
-                "description": "Nitrofurantoin SR 100mg twice a day for 5-7 days\\n\\nAND Amoxicillin 500mg three times a day for 5-7 days\\n\\nFollow-up recommended within 48 hours culture result and clinical monitoring"
+                "description": "Nitrofurantoin SR 100mg twice a day for 5-7 days\n\nAND Amoxicillin 500mg three times a day for 5-7 days\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             },
             {
                 "id": "230",
                 "title": "",
-                "description": "Nitrofurantoin SR 100mg twice a day for 5-7 days\\n\\nFollow-up recommended within 48 hours culture result and clinical monitoring"
+                "description": "Nitrofurantoin SR 100mg twice a day for 5-7 days\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             }
         ]
     },
