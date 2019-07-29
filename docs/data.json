@@ -263,45 +263,5 @@
                 "description": "Nitrofurantoin SR 100mg twice a day for 5-7 days\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             }
         ]
-    },
-    {
-        "quizTitle": "Sample Quiz",
-        "firstQuizNodeId": "10",
-        "indexedQuizNodes": [
-            {
-                "id": "10",
-                "title": "Sample Question Title",
-                "description": "Sample question?",
-                "answers": [
-                    {
-                        "nextQuizNodeId": "20",
-                        "description": "Sample answer 1"
-                    },
-                    {
-                        "nextQuizNodeId": "30",
-                        "description": "Sample answer 2"
-                    },
-                    {
-                        "nextQuizNodeId": "40",
-                        "description": "Sample answer 3"
-                    }
-                ]
-            },
-            {
-                "id": "20",
-                "title": "Sample Answer Title",
-                "description": "Sample result 1"
-            },
-            {
-                "id": "30",
-                "title": "Sample Answer Title",
-                "description": "Sample result 2"
-            },
-            {
-                "id": "40",
-                "title": "Sample Answer Title",
-                "description": "WINNER WINNER CHICKEN DINNER"
-            }
-        ]
     }
 ]
