@@ -263,5 +263,322 @@
                 "description": "Nitrofurantoin SR 100mg twice a day for 5-7 days\n\nFollow-up recommended within 48 hours culture result and clinical monitoring"
             }
         ]
+    },
+    {
+        "quizTitle": "[2016] Outpatient Community Acquired Pneumonia",
+        "firstQuizNodeId": "-3",
+        "indexedQuizNodes": [
+            {
+                "id": "-3",
+                "title": "",
+                "description": "Does the patient display any of the following risk factors for MDR (multi-drug resistant) S. pneumoniae?\n\n• Chronic heart disease\n• Renal disease\n• Diabetes mellitus\n• Alcoholism\n• Neoplastic disease\n• Asplenia\n• Immunosuppression\n• Prior antimicrobial therapy within 90 days",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-8",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-5",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-4",
+                "title": "",
+                "description": "Is there a suspicion of tuberculosis?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-9",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-10",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-5",
+                "title": "",
+                "description": "Does the patient have a contraindication to Azithromycin?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-2",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-7",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-2",
+                "title": "",
+                "description": "Doxycycline 200 mg twice a day for 2 doses, then 100 mg twice a day for a total of 7 days"
+            },
+            {
+                "id": "-7",
+                "title": "",
+                "description": "Azithromycin 500 mg once, then 250 mg PO daily for 4 days"
+            },
+            {
+                "id": "-8",
+                "title": "",
+                "description": "Does the patient have a Penicillin allergy (PCN anaphylaxis)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-4",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-16",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-9",
+                "title": "",
+                "description": "Consult the relevant infectious disease or antibiotic stewardship personnel"
+            },
+            {
+                "id": "-10",
+                "title": "",
+                "description": "Moxifloxacin 400 mg daily for 7 days"
+            },
+            {
+                "id": "-11",
+                "title": "",
+                "description": "What is the patient's creatinine clearance (CrCl)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-12",
+                        "description": "CrCl > 30mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-14",
+                        "description": "CrCl < 30mL/min"
+                    }
+                ]
+            },
+            {
+                "id": "-12",
+                "title": "",
+                "description": "• Cefpodoxime 200 mg every 12 hours for 7 days\n\nAND\n\n• Azithromycin 500mg once, then 250 mg PO daily for 4 days"
+            },
+            {
+                "id": "-14",
+                "title": "",
+                "description": "• Cefpodoxime 200 mg every 24 hours for 7 days\n\nAND\n\n• Azithromycin 500mg once, then 250 mg PO daily for 4 days"
+            },
+            {
+                "id": "-16",
+                "title": "",
+                "description": "Is the patient on hemodialysis?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-17",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-11",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-17",
+                "title": "",
+                "description": "• Cefpodoxime 200 mg 3 times per week AFTER hemodialysis\n\nAND\n\n• Azithromycin 500mg once, then 250 mg PO daily for 4 days"
+            }
+        ]
+    },
+    {
+        "quizTitle": "[2016] Inpatient UTI (Urinary Tract Infection)",
+        "firstQuizNodeId": "-3",
+        "indexedQuizNodes": [
+            {
+                "id": "-3",
+                "title": "",
+                "description": "Is there a possibility of  CAUTI (catheter associated UTI)? Is the patient currently catheterized, or has been within the previous 48 hours?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-19",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-20",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-18",
+                "title": "",
+                "description": "Discontinue catheter if able, or change catheter if not. If symptoms persist then start this guideline again from the beginning."
+            },
+            {
+                "id": "-19",
+                "title": "",
+                "description": "Has the patient's catheter already been removed or changed in an attempt to treat the infection?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-20",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-18",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-20",
+                "title": "",
+                "description": "Does the patient have any of the following risk factors for resistant pathogens?\n\n• Recurrent UTI\n• Has recently been on antibiotics\n• Recent hospitalization\n• Long-term care facility\n• Prior colonization",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-15",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-7",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-7",
+                "title": "",
+                "description": "Does the patient have a Penicillin allergy (PCN anaphylaxis)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-8",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-9",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-8",
+                "title": "",
+                "description": "Is the patient septic?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-12",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-14",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-9",
+                "title": "",
+                "description": "Is the patient septic?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-11",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-2",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-2",
+                "title": "",
+                "description": "Cefepime 2 g IV every 12 hours"
+            },
+            {
+                "id": "-11",
+                "title": "",
+                "description": "• Cefepime 2 g IV every 12 hours\n\nAND\n\n• Amikacin 20 mg/kg IV daily"
+            },
+            {
+                "id": "-12",
+                "title": "",
+                "description": "• Aztreonam 1 g every 8 hours\n\nAND\n\n• Amikacin 20 mg/kg IV daily"
+            },
+            {
+                "id": "-14",
+                "title": "",
+                "description": "Aztreonam 1 g every 8 hours"
+            },
+            {
+                "id": "-15",
+                "title": "",
+                "description": "Does the patient have a Penicillin allergy (PCN anaphylaxis)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-23",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-22",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-16",
+                "title": "",
+                "description": "• Aztreonam 1 g every 8 hours\n\nAND\n\n• Polymyxin 25,000 units/kg IV daily"
+            },
+            {
+                "id": "-17",
+                "title": "",
+                "description": "• Cefepime 2 g IV every 12 hours\n\nAND\n\n• Polymyxin 25,000 units/kg IV daily"
+            },
+            {
+                "id": "-21",
+                "title": "",
+                "description": "• Cefepime 2 g IV every 12 hours\n\nAND\n\n• Polymyxin 25,000 units/kg IV daily\n\nAND\n\n• Vancomycin 15 mg/kg IV every 12 hours"
+            },
+            {
+                "id": "-22",
+                "title": "",
+                "description": "Is there a recent instrument or gram-positive cocci on Gram stain of urine?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-21",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-17",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-23",
+                "title": "",
+                "description": "Is there a recent instrument or gram-positive cocci on Gram stain of urine?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-24",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-16",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-24",
+                "title": "",
+                "description": "• Aztreonam 1 g every 8 hours\n\nAND\n\n• Polymyxin 25,000 units/kg IV daily\n\nAND\n\n• Vancomycin 15 mg/kg IV every 12 hours"
+            }
+        ]
     }
 ]
