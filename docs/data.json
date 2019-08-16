@@ -1,5 +1,490 @@
 [
     {
+        "quizTitle": "Outpatient Skin and Soft Tissue Infection",
+        "firstQuizNodeId": "-8",
+        "indexedQuizNodes": [
+            {
+                "id": "-8",
+                "title": "",
+                "description": "Select the type of skin or soft tissue infection",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-3",
+                        "description": "Cellulitis"
+                    },
+                    {
+                        "nextQuizNodeId": "-5",
+                        "description": "Abscess"
+                    },
+                    {
+                        "nextQuizNodeId": "-2",
+                        "description": "Superficial ulcer"
+                    }
+                ]
+            },
+            {
+                "id": "-3",
+                "title": "",
+                "description": "Does the patiend have diabetes or chronic vascular disease?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-7",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-9",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-5",
+                "title": "",
+                "description": "What size is the abscess?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-43",
+                        "description": "Between 2-5 cm"
+                    },
+                    {
+                        "nextQuizNodeId": "-59",
+                        "description": "Other"
+                    }
+                ]
+            },
+            {
+                "id": "-2",
+                "title": "",
+                "description": "No systemic antibiotics required. Consider topical therapy."
+            },
+            {
+                "id": "-7",
+                "title": "",
+                "description": "Does the patient have or have they had a history of chronic ulcers?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-14",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-11",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-9",
+                "title": "",
+                "description": "Does the patient have any risk factors for MRSA:\n\n• Significant contact with hospital setting (dialysis, nursing home)\n• Hospitalization in the last 90 days\n• Men who have sex with men\n• Multiple abscesses\n• Intertriginous or buttock involvement",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-32",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-31",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-11",
+                "title": "",
+                "description": "Does the patient have any contraindications to penicillin?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-22",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-23",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-14",
+                "title": "",
+                "description": "What is the patient's creatinine clearance (CrCl)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-20",
+                        "description": "CrCl > 30 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-19",
+                        "description": "CrCl 10-29 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-21",
+                        "description": "CrCl < 9 mL/min OR hemodialysis"
+                    }
+                ]
+            },
+            {
+                "id": "-20",
+                "title": "",
+                "description": "• Ciproflaxacin 500mg PO q12h + Bactrim DS 4 to 6 mg/kg q12h\n\nOR\n\n• Minocycline 100mg PO q12h + Metronidazole 500mg PO q8h (??? \"if gas or crepitus Consider surgical evaluation\" ???)"
+            },
+            {
+                "id": "-19",
+                "title": "",
+                "description": "• Ciproflaxacin 500mg PO q12h + Bactrim DS 2 to 3 mg/kg q12h\n\nOR\n\n• Minocycline 100mg PO q12h + Metronidazole 500mg PO q8h (??? \"if gas or crepitus Consider surgical evaluation\" ???)"
+            },
+            {
+                "id": "-21",
+                "title": "",
+                "description": "• Ciproflaxacin 500mg PO q12h\n\nOR\n\n• Minocycline 100mg PO q12h + Metronidazole 500mg PO q8h (??? \"if gas or crepitus Consider surgical evaluation\" ???)"
+            },
+            {
+                "id": "-22",
+                "title": "",
+                "description": "What is the patient's creatinine clearance (CrCl)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-28",
+                        "description": "CrCl > 30 ml/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-29",
+                        "description": "CrCl 10-29 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-30",
+                        "description": "CrCl < 9 mL/min OR hemodialysis"
+                    }
+                ]
+            },
+            {
+                "id": "-23",
+                "title": "",
+                "description": "What is the patient's creatinine clearance (CrCl)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-24",
+                        "description": "CrCl > 30 ml/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-25",
+                        "description": "CrCl 10-29 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-26",
+                        "description": "CrCl < 9 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-27",
+                        "description": "Hemodialysis"
+                    }
+                ]
+            },
+            {
+                "id": "-24",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q6h\n\nAND\n\n• Bactrim DS 4-6 mg/kg q12h\n"
+            },
+            {
+                "id": "-25",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q8h\n\nAND\n\n• Bactrim DS 2-3 mg/kg q12h"
+            },
+            {
+                "id": "-26",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q12h"
+            },
+            {
+                "id": "-27",
+                "title": "",
+                "description": "Cephalexin 500mg PO q24h, dose after HD"
+            },
+            {
+                "id": "-28",
+                "title": "",
+                "description": "• Clindamycin DOSAGE???\n\nAND\n\n• Bactrim DS 4-6 mg/kg q12h\n"
+            },
+            {
+                "id": "-29",
+                "title": "",
+                "description": "• Clindamycin DOSAGE???\n\nAND\n\n• Bactrim DS 2-3 mg/kg q12h\n"
+            },
+            {
+                "id": "-30",
+                "title": "",
+                "description": "Clindamycin DOSAGE???"
+            },
+            {
+                "id": "-31",
+                "title": "",
+                "description": "Is the cellulitis purulent?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-32",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-42",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-32",
+                "title": "",
+                "description": "Does the patient have any contraindications to penicillin?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-38",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-34",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-33",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q6h + Bactrim DS PO 4-6 mg/kg q12h\n\nOR\n\n• Minocycline/Doxycycline 100mg PO q12h"
+            },
+            {
+                "id": "-34",
+                "title": "",
+                "description": "What is the patient's creatinine clearance (CrCl)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-33",
+                        "description": "CrCl > 30 ml/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-35",
+                        "description": "CrCl 10-29 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-36",
+                        "description": "CrCl < 9 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-37",
+                        "description": "Hemodialysis"
+                    }
+                ]
+            },
+            {
+                "id": "-35",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q8h + Bactrim DS 4-6 mg/kg q6h\n\nOR\n\n• Minocycline/Doxycycline 100mg PO q12h"
+            },
+            {
+                "id": "-36",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q12h\n\nOR\n\n• Minocycline/Doxycycline 100mg PO q12h"
+            },
+            {
+                "id": "-37",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q24h, dose after hemodialysis\n\nOR\n\n• Minocycline/Doxycycline 100mg PO q12h"
+            },
+            {
+                "id": "-38",
+                "title": "",
+                "description": "What is the patient's creatinine clearance (CrCl)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-39",
+                        "description": "CrCl < 9 mL/min OR hemodialysis"
+                    },
+                    {
+                        "nextQuizNodeId": "-40",
+                        "description": "CrCl 10-29 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-41",
+                        "description": "CrCl > 30 ml/min"
+                    }
+                ]
+            },
+            {
+                "id": "-39",
+                "title": "",
+                "description": "Clindamycin DOSAGE???"
+            },
+            {
+                "id": "-40",
+                "title": "",
+                "description": "• Clindamycin DOSAGE???\n\nAND\n\n• Bactrim DS 2-3 mg/kg q12h\n"
+            },
+            {
+                "id": "-41",
+                "title": "",
+                "description": "• Clindamycin DOSAGE???\n\nAND\n\n• Bactrim DS 4-6 mg/kg q12h\n"
+            },
+            {
+                "id": "-42",
+                "title": "",
+                "description": "Does the patient have any contraindications to penicillin?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-51",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-44",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-44",
+                "title": "",
+                "description": "What is the patient's creatinine clearance (CrCl)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-45",
+                        "description": "CrCl 10-29 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-46",
+                        "description": "CrCl > 30 ml/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-47",
+                        "description": "CrCl < 9 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-48",
+                        "description": "Hemodialysis"
+                    }
+                ]
+            },
+            {
+                "id": "-45",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q8h + Bactrim DS 4-6 mg/kg q6h\n\nOR\n\n• Dicloxacilin 500mg PO q6h"
+            },
+            {
+                "id": "-46",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q6h + Bactrim DS PO 4-6 mg/kg q12h\n\nOR\n\n• Dicloxacilin 500mg PO q6h"
+            },
+            {
+                "id": "-47",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q12h\n\nOR\n\n• Dicloxacilin 500mg PO q6h"
+            },
+            {
+                "id": "-48",
+                "title": "",
+                "description": "• Cephalexin 500mg PO q24h, dose after hemodialysis\n\nOR\n\n• Dicloxacilin 500mg PO q6h"
+            },
+            {
+                "id": "-51",
+                "title": "",
+                "description": "Clindamycin DOSAGE???"
+            },
+            {
+                "id": "-43",
+                "title": "",
+                "description": "Do any of the following apply:\n\n• The abscess has surrounding cellulitis\n• The abscess is in a vurnerable site (e.g. finger or face)\n• The patient immunocompromised",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-50",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-49",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-49",
+                "title": "",
+                "description": "Is the patient under 10 yearts of age?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-53",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-52",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-50",
+                "title": "",
+                "description": "Is the patient under 10 yearts of age?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-55",
+                        "description": "Yes"
+                    },
+                    {
+                        "nextQuizNodeId": "-56",
+                        "description": "No"
+                    }
+                ]
+            },
+            {
+                "id": "-52",
+                "title": "",
+                "description": "No systemic antibiotics needed. Perform incision, debridement, and drainage. Take cultures and adjust therapy accordingly to culture results."
+            },
+            {
+                "id": "-53",
+                "title": "",
+                "description": "Bactrim 4-6 mg q12h. Perform incision, debridement, and drainage. Take cultures and adjust therapy accordingly to culture results."
+            },
+            {
+                "id": "-54",
+                "title": "",
+                "description": "Perform incision, debridement, and drainage. Take cultures and adjust therapy accordingly to culture results.\n\n• Bactrim DS 4-6 mg q12h\n\nOR\n\n• Minocycline/Doxycycline 100mg PO q12h\n"
+            },
+            {
+                "id": "-55",
+                "title": "",
+                "description": "Bactrim DS 4-6 mg q12h"
+            },
+            {
+                "id": "-56",
+                "title": "",
+                "description": "What is the patient's creatinine clearance (CrCl)?",
+                "answers": [
+                    {
+                        "nextQuizNodeId": "-54",
+                        "description": "CrCl > 30ml/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-57",
+                        "description": "CrCl 10-29 mL/min"
+                    },
+                    {
+                        "nextQuizNodeId": "-58",
+                        "description": "CrCl < 10 mL/min OR hemodialysis"
+                    }
+                ]
+            },
+            {
+                "id": "-57",
+                "title": "",
+                "description": "Perform incision, debridement, and drainage. Take cultures and adjust therapy accordingly to culture results.\n\n• Bactrim DS 2-3 mg q12h\n\nOR\n\n• Minocycline/Doxycycline 100mg PO q12h\n"
+            },
+            {
+                "id": "-58",
+                "title": "",
+                "description": "Perform incision, debridement, and drainage. Take cultures and adjust therapy accordingly to culture results.\n\n• Minocycline/Doxycycline 100mg PO q12h\n"
+            },
+            {
+                "id": "-59",
+                "title": "",
+                "description": "??? NO GUIDELINES FOR OTHER ABSCESS CASES ???"
+            }
+        ]
+    },
+    {
         "quizTitle": "[2016] Outpatient UTI (Urinary Tract Infection)",
         "firstQuizNodeId": "1",
         "indexedQuizNodes": [
